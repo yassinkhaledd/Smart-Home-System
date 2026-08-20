@@ -6,7 +6,7 @@ An embedded smart home control and monitoring system developed for the **AVR ATm
 
 ##  Key Features
 
-* ** Emergency Fire & Gas Alert:**
+* **Emergency Fire & Gas Alert:**
   * Instant safety shutdown triggered via External Interrupt (**EXT0**).
   * Activates the emergency buzzer, switches the indicator LED from Green to Red, and displays an alert on the LCD while isolating loads.
 
