@@ -10,20 +10,20 @@ An embedded smart home control and monitoring system developed for the **AVR ATm
   * Instant safety shutdown triggered via External Interrupt (**EXT0**).
   * Activates the emergency buzzer, switches the indicator LED from Green to Red, and displays an alert on the LCD while isolating loads.
 
-* ** Smart Temperature & Fan Speed Control:**
+* **Smart Temperature & Fan Speed Control:**
   * Reads ambient temperature using the **LM35** sensor via **ADC**.
   * Dynamically controls cooling fan speed using **Fast PWM (Timer0)** ($0\% \rightarrow 40\% \rightarrow 70\% \rightarrow 100\%$).
 
-* ** Multi-Mode Lighting Automation:**
+* **Multi-Mode Lighting Automation:**
   * **Mode 1 (Manual):** Toggle control using a push button with software debouncing.
   * **Mode 2 (Bluetooth):** Wireless remote control via **USART** (HC-05 module).
   * **Mode 3 (Torch / LDR):** Automatic day/night light control based on light intensity (**LDR + ADC**).
   * **Mode 0 (Standby):** Automatic power-saving shutdown.
 
-* ** Weather & Rain Sensing:**
+* **Weather & Rain Sensing:**
   * Real-time rain sensor integration to monitor weather conditions.
 
-* ** System Dashboard (LCD):**
+* **System Dashboard (LCD):**
   * Live status display for temperature, fan speed, lighting mode, lamp state, LDR readings, and rain detection.
 
 ---
